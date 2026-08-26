@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔥 Newsfeed Hot Items — 每週 TOP5 提案</title>
+<style>
+  :root{--bg:#f5f6f8;--card:#fff;--ink:#1a1a2e;--sub:#6b7280;--line:#e5e7eb;
+        --high:#e11d48;--high-bg:#ffe4e6;--med:#d97706;--med-bg:#fef3c7;--low:#6b7280;--low-bg:#f3f4f6;
+        --brand:#0f766e;--brand-bg:#ccfbf1;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang HK","Microsoft JhengHei",sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.55;padding-bottom:48px}
+  .wrap{max-width:920px;margin:0 auto;padding:16px}
+  header{background:linear-gradient(135deg,#0f766e,#115e59);color:#fff;padding:22px 16px 18px}
+  header h1{font-size:20px;font-weight:800}
+  header p{font-size:12.5px;opacity:.85;margin-top:4px}
+  .controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 0 12px}
+  .controls label{font-size:13px;color:var(--sub);font-weight:600}
+  select{font-size:14px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink)}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+  .stat b{display:block;font-size:22px;font-weight:800}
+  .stat span{font-size:11.5px;color:var(--sub)}
+  .stat.g b{color:var(--brand)} .stat.o b{color:var(--med)} .stat.r b{color:var(--high)}
+  h2{font-size:15px;font-weight:800;margin:20px 0 10px;display:flex;align-items:center;gap:8px}
+  h2 .tag{font-size:11px;background:var(--brand-bg);color:var(--brand);padding:2px 8px;border-radius:99px;font-weight:700}
+  .top5{display:flex;flex-direction:column;gap:10px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .card .head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .rank{width:30px;height:30px;border-radius:9px;background:var(--ink);color:#fff;font-weight:800;font-size:14px;
+        display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .rank.r1{background:linear-gradient(135deg,#f59e0b,#e11d48)}
+  .rank.r2{background:linear-gradient(135deg,#94a3b8,#64748b)}
+  .rank.r3{background:linear-gradient(135deg,#d97706,#b45309)}
+  .card h3{font-size:15px;font-weight:700;flex:1;min-width:200px}
+  .heat{font-size:11px;font-weight:800;padding:3px 10px;border-radius:99px;letter-spacing:.3px}
+  .heat.HIGH{background:var(--high-bg);color:var(--high)}
+  .heat.MEDIUM{background:var(--med-bg);color:var(--med)}
+  .heat.LOW{background:var(--low-bg);color:var(--low)}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:12.5px;color:var(--sub)}
+  .meta b{color:var(--ink);font-weight:600}
+  .sku{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#f1f5f9;
+       padding:2px 8px;border-radius:6px;cursor:pointer;border:1px solid var(--line)}
+  .sku:hover{background:var(--brand-bg)}
+  .ev{margin-top:9px;font-size:13px;background:#fafafa;border-left:3px solid var(--brand);
+      padding:8px 10px;border-radius:0 8px 8px 0}
+  .ev .lbl{font-weight:700;color:var(--brand);font-size:11.5px;display:block;margin-bottom:2px}
+  .url{display:inline-block;margin-top:9px;font-size:12.5px;color:var(--brand);text-decoration:none;font-weight:600;word-break:break-all}
+  .url:hover{text-decoration:underline}
+  .extras table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:12.5px}
+  .extras th{background:#f9fafb;text-align:left;padding:9px 10px;font-size:11.5px;color:var(--sub);white-space:nowrap}
+  .extras td{padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}
+  .extras a{color:var(--brand);text-decoration:none}
+  .note{font-size:11.5px;color:var(--sub);background:#fff;border:1px dashed var(--line);border-radius:10px;padding:10px 12px;margin-top:20px}
+  footer{text-align:center;font-size:11.5px;color:var(--sub);margin-top:28px}
+  .copied{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#111827;color:#fff;
+          font-size:12.5px;padding:8px 16px;border-radius:99px;opacity:0;transition:opacity .3s;pointer-events:none;z-index:99}
+  .copied.show{opacity:1}
+  @media(max-width:560px){
+    .stats{gap:6px}.stat b{font-size:18px}
+    .card h3{min-width:150px;font-size:14px}
+    .extras table{font-size:11.5px}
+    .extras th,.extras td{padding:7px 6px}
+    .extras .hide-m{display:none}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🔥 Newsfeed Hot Items — 每週 TOP 5 提案</h1>
+  <p>HKTVmall 全平台 27,428 SKU 社交熱度 scan ｜ 每週一 10:00 自動更新 ｜ 參考：YouTube / IG / FB / Threads / 小紅書 / LIHKG</p>
+</header>
+<div class="wrap">
+  <div class="controls">
+    <label for="weekSel">📅 週次</label>
+    <select id="weekSel"></select>
+  </div>
+  <div class="stats">
+    <div class="stat g"><b id="stScan">-</b><span>本週 Scan SKU</span></div>
+    <div class="stat o"><b id="stHeat">-</b><span>有熱度訊號</span></div>
+    <div class="stat r"><b id="stTop">-</b><span>提案 SKU</span></div>
+  </div>
+
+  <h2>🏆 本週 Top 5 提案 <span class="tag" id="weekTag"></span></h2>
+  <div class="top5" id="top5"></div>
+
+  <h2>📋 其他有熱度 SKU（後備）</h2>
+  <div class="extras"><table>
+    <thead><tr><th>SKU ID</th><th>產品</th><th>Store</th><th>價錢</th><th>熱度</th><th class="hide-m">討論證據</th></tr></thead>
+    <tbody id="extras"></tbody>
+  </table></div>
+
+  <div class="note">
+    ⚠️ <b>備註：</b>價格為估算（上月 GMV ÷ 銷量均價）；熱度基於 YouTube 開箱/評測/推薦影片 + 新聞媒體討論（IG/FB/Threads 直接內容受平台限制未能完整覆蓋）。每週輪換 scan 下一批 60 SKU（~174 週覆蓋全平台）。
+  </div>
+  <footer>Data: data/weekly.json ｜ 自動更新：Newsfeed Hot Item Weekly Scan（逢週一 10:00）</footer>
+</div>
+<div class="copied" id="copied">✅ SKU ID 已複製</div>
+<script>
+let DATA = {weeks: []};
+const HEAT_CLS = {HIGH:'HIGH', MEDIUM:'MEDIUM', LOW:'LOW'};
+const fmt$ = n => '$' + Number(n || 0).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+async function load(){
+  try{
+    const r = await fetch('data/weekly.json?v=' + Date.now());
+    DATA = await r.json();
+  }catch(e){ document.getElementById('top5').innerHTML = '<div class="card">❌ 數據載入失敗：' + esc(e.message) + '</div>'; return; }
+  const sel = document.getElementById('weekSel');
+  DATA.weeks.slice().sort((a,b)=> b.week_start.localeCompare(a.week_start)).forEach(w=>{
+    const o = document.createElement('option');
+    o.value = w.week_start; o.textContent = w.week_label + '（' + w.generated + ' 更新）';
+    sel.appendChild(o);
+  });
+  if(sel.options.length) render(sel.value = sel.options[0].value);
+  sel.onchange = () => render(sel.value);
+}
+
+function render(weekStart){
+  const w = DATA.weeks.find(x=>x.week_start===weekStart) || DATA.weeks[0];
+  document.getElementById('stScan').textContent = w.scanned;
+  document.getElementById('stHeat').textContent = w.with_heat;
+  document.getElementById('stTop').textContent = (w.top5||[]).length;
+  document.getElementById('weekTag').textContent = w.week_label;
+  document.title = '🔥 Newsfeed Hot Items — ' + w.week_label;
+
+  document.getElementById('top5').innerHTML = (w.top5||[]).map((s,i)=>{
+    const rk = i===0?'r1':i===1?'r2':i===2?'r3':'';
+    return `<div class="card">
+      <div class="head">
+        <div class="rank ${rk}">${s.rank||i+1}</div>
+        <h3>${esc(s.name)}</h3>
+        <span class="heat ${HEAT_CLS[s.heat]||'LOW'}">${esc(s.heat)}</span>
+      </div>
+      <div class="meta">
+        <span>🏪 <b>${esc(s.store)}</b> (${esc(s.store_code)})</span>
+        <span>💰 <b>${fmt$(s.price)}</b> (估)</span>
+        <span class="sku" onclick="copySku(this)" title="按一下複製">${esc(s.sku_id)}</span>
+      </div>
+      <div class="ev"><span class="lbl">💬 討論證據</span>${esc(s.evidence)}</div>
+      ${s.url ? `<a class="url" href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.url)}</a>` : ''}
+    </div>`;
+  }).join('');
+
+  document.getElementById('extras').innerHTML = (w.extras||[]).map(s=>`
+    <tr>
+      <td><span class="sku" onclick="copySku(this)">${esc(s.sku_id)}</span></td>
+      <td>${esc(s.name)}</td>
+      <td>${esc(s.store)}</td>
+      <td style="white-space:nowrap">${fmt$(s.price)}</td>
+      <td><span class="heat ${HEAT_CLS[s.heat]||'LOW'}">${esc(s.heat)}</span></td>
+      <td class="hide-m">${esc(s.evidence)} ${s.url?`<br><a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 影片</a>`:''}</td>
+    </tr>`).join('');
+}
+
+function copySku(el){
+  const t = el.textContent.trim();
+  (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject())
+    .then(()=>{ const c=document.getElementById('copied'); c.classList.add('show'); setTimeout(()=>c.classList.remove('show'),1200); })
+    .catch(()=>{});
+}
+load();
+</script>
+</body>
+</html>

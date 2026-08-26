@@ -1,0 +1,101 @@
+{
+  "weeks": [
+    {
+      "week_start": "2026-08-24",
+      "week_label": "24/8 週",
+      "generated": "2026-08-26",
+      "scanned": 60,
+      "with_heat": 10,
+      "scan_tier": 0,
+      "top5": [
+        {
+          "rank": 1,
+          "sku_id": "H6183001_S_4908",
+          "name": "鮑發財 - 小食鮑魚零食禮盒(16粒)",
+          "store": "安記海味",
+          "store_code": "H6183001",
+          "price": 108.73,
+          "heat": "HIGH",
+          "evidence": "安記 2026 全新電視廣告 17 小時前上架；4 日前零食開箱/試伏影片；梁家權鮑魚盲測 — 鮑魚零食話題持續",
+          "url": "https://www.youtube.com/watch?v=2rI2VfmCVsg"
+        },
+        {
+          "rank": 2,
+          "sku_id": "H6183001_S_4928",
+          "name": "零食鮑- 和風照燒(12粒裝)",
+          "store": "安記海味",
+          "store_code": "H6183001",
+          "price": 87.65,
+          "heat": "HIGH",
+          "evidence": "安記 2026 全新電視廣告 17 小時前上架；星島申訴王 2 日前；樓上店 3 日前影片 — 品牌正推「零食鮑魚」新 format，時機極啱 Newsfeed",
+          "url": "https://www.youtube.com/watch?v=2rI2VfmCVsg"
+        },
+        {
+          "rank": 3,
+          "sku_id": "B0961005_S_4894436008671",
+          "name": "免疫+ 益生菌 28包",
+          "store": "香港網上社區藥房超市",
+          "store_code": "B0961005",
+          "price": 338.44,
+          "heat": "MEDIUM",
+          "evidence": "消委會踢爆 25 款益生菌「呃錢陷阱」（4 個月前全城話題）+ 藥劑師指南 + G-NiiB 官方廣告 + PGut 優惠片 9 日前",
+          "url": "https://www.youtube.com/watch?v=xXjef-ZYI2w"
+        },
+        {
+          "rank": 4,
+          "sku_id": "H6588001_S_Philips_ADD6991WH",
+          "name": "ADD6991WH RO純淨冷熱製冰飲水機 香港行貨",
+          "store": "輝煌數碼",
+          "store_code": "H6588001",
+          "price": 3750.0,
+          "heat": "MEDIUM",
+          "evidence": "RO 水機購買指南（即熱/製冰）+ 友和 YOHO 開箱 + GG學堂 RO 即熱飲水機 6 大迷思 — 家電評測類別持續討論",
+          "url": "https://www.youtube.com/watch?v=zEfiywrtApc"
+        },
+        {
+          "rank": 5,
+          "sku_id": "H0883004_S_CUMainlandMacau365D18GB",
+          "name": "365日(30GB) 5G/4G 內地澳門上網卡",
+          "store": "Enjoy Sim Plus",
+          "store_code": "H0883004",
+          "price": 143.29,
+          "heat": "MEDIUM",
+          "evidence": "2026 日本旅遊 SIM/eSIM 選購攻略（1 個月前）+ 中國聯通年卡懶人包（3 個月前）+ MySIM 5G 攻略（2 個月前）— 年卡/eSIM 長期熱門類別",
+          "url": "https://www.youtube.com/watch?v=9O2zEPzxEhE"
+        }
+      ],
+      "extras": [
+        {
+          "sku_id": "S6477001_S_blackmaca-30",
+          "name": "特濃2000黑瑪卡液禮盒裝 (30包)",
+          "store": "正官庄",
+          "store_code": "S6477001",
+          "price": 520.0,
+          "heat": "MEDIUM",
+          "evidence": "正官庄官方廣告（譚俊彥代言）+ 黑瑪卡 VS 犀利士大比拼 + 自費保健品評測",
+          "url": "https://www.youtube.com/watch?v=y4ZPw5wkkH8"
+        },
+        {
+          "sku_id": "H5600001_S_580000",
+          "name": "衣物留香珠 885ml (皇室香氛)",
+          "store": "Swashes 詩樂氏｜清潔消毒專家",
+          "store_code": "H5600001",
+          "price": 69.1,
+          "heat": "LOW",
+          "evidence": "消委會抽查 12 款衣物清香珠全檢出可致敏香料（星島頭條）— 新聞話題但已過氣",
+          "url": "https://www.youtube.com/watch?v=XMvn_rmPYLU"
+        },
+        {
+          "sku_id": "S6501001_S_G4711100912501",
+          "name": "TRUU 童 76酵母胺基酸淨膚潔顏露150g",
+          "store": "GT BEAUTY",
+          "store_code": "S6501001",
+          "price": 315.0,
+          "heat": "LOW",
+          "evidence": "TRUU 開箱/推薦（2-3 年前多條，包括「人生用過最好用洗面乳」）— 美妝 KOL 討論但內容偏舊",
+          "url": "https://www.youtube.com/watch?v=DTUMC07orIA"
+        }
+      ]
+    }
+  ]
+}
