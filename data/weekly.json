@@ -14,7 +14,7 @@
      "rank": 1,
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H6183001_S_4908.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6183001_S_4908",
-     "img": "/img/H6183001_S_4908.jpg"
+     "img": "img/H6183001_S_4908.jpg"
     },
     {
      "sku_id": "H6183001_S_4928",
@@ -28,7 +28,7 @@
      "rank": 2,
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H6183001_S_4928.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6183001_S_4928",
-     "img": "/img/H6183001_S_4928.jpg"
+     "img": "img/H6183001_S_4928.jpg"
     },
     {
      "sku_id": "B0961005_S_4894436008671",
@@ -42,7 +42,7 @@
      "rank": 3,
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_B0961005_S_4894436008671.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/B0961005_S_4894436008671",
-     "img": "/img/B0961005_S_4894436008671.jpg"
+     "img": "img/B0961005_S_4894436008671.jpg"
     },
     {
      "sku_id": "H6588001_S_Philips_ADD6991WH",
@@ -56,7 +56,7 @@
      "rank": 4,
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H6588001_S_Philips_ADD6991WH.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6588001_S_Philips_ADD6991WH",
-     "img": "/img/H6588001_S_Philips_ADD6991WH.jpg"
+     "img": "img/H6588001_S_Philips_ADD6991WH.jpg"
     },
     {
      "sku_id": "H0883004_S_CUMainlandMacau365D18GB",
@@ -70,7 +70,7 @@
      "rank": 5,
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H0883004_S_CUMainlandMacau365D18GB.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H0883004_S_CUMainlandMacau365D18GB",
-     "img": "/img/H0883004_S_CUMainlandMacau365D18GB.jpg"
+     "img": "img/H0883004_S_CUMainlandMacau365D18GB.jpg"
     }
    ],
    "extras": [
@@ -85,7 +85,7 @@
      "url": "https://www.youtube.com/watch?v=y4ZPw5wkkH8",
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_S6477001_S_blackmaca-30.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/S6477001_S_blackmaca-30",
-     "img": "/img/S6477001_S_blackmaca-30.jpg"
+     "img": "img/S6477001_S_blackmaca-30.jpg"
     },
     {
      "sku_id": "B0501001_S_AHH90013",
@@ -98,7 +98,7 @@
      "url": "https://www.youtube.com/watch?v=zEfiywrtApc",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/B0501001_S_AHH90013",
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_B0501001_S_AHH90013.pptx",
-     "img": "/img/B0501001_S_AHH90013.jpg"
+     "img": "img/B0501001_S_AHH90013.jpg"
     },
     {
      "sku_id": "H0883003_S_BASF4719873980017",
@@ -111,7 +111,7 @@
      "url": "https://www.youtube.com/watch?v=GpVDzGAUCkA",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H0883003_S_BASF4719873980017",
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H0883003_S_BASF4719873980017.pptx",
-     "img": "/img/H0883003_S_BASF4719873980017.jpg"
+     "img": "img/H0883003_S_BASF4719873980017.jpg"
     },
     {
      "sku_id": "S6501001_S_G4711100912501",
@@ -124,7 +124,7 @@
      "url": "https://www.youtube.com/watch?v=zEfiywrtApc",
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_S6501001_S_G4711100912501.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/S6501001_S_G4711100912501",
-     "img": "/img/S6501001_S_G4711100912501.jpg"
+     "img": "img/S6501001_S_G4711100912501.jpg"
     },
     {
      "sku_id": "H5600001_S_580000",
@@ -137,7 +137,7 @@
      "url": "https://www.youtube.com/watch?v=Qc1LxV1B5x8",
      "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H5600001_S_580000.pptx",
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H5600001_S_580000",
-     "img": "/img/H5600001_S_580000.jpg"
+     "img": "img/H5600001_S_580000.jpg"
     }
    ],
    "week_start": "2026-08-24",
