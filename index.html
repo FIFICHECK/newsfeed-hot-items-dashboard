@@ -48,6 +48,11 @@
   .ev .lbl{font-weight:700;color:var(--brand);font-size:11.5px;display:block;margin-bottom:2px}
   .url{display:inline-block;margin-top:9px;font-size:12.5px;color:var(--brand);text-decoration:none;font-weight:600;word-break:break-all}
   .url:hover{text-decoration:underline}
+  .dl-btn{display:inline-block;margin-top:9px;margin-right:8px;font-size:12.5px;font-weight:700;color:#fff;
+          background:var(--brand);padding:6px 14px;border-radius:8px;text-decoration:none}
+  .dl-btn:hover{background:#0d5d56}
+  .dl-mini{font-size:11.5px;font-weight:700;color:var(--brand);text-decoration:none;white-space:nowrap}
+  .dl-mini:hover{text-decoration:underline}
   .extras table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:12.5px}
   .extras th{background:#f9fafb;text-align:left;padding:9px 10px;font-size:11.5px;color:var(--sub);white-space:nowrap}
   .extras td{padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}
@@ -87,7 +92,7 @@
 
   <h2>📋 其他有熱度 SKU（後備）</h2>
   <div class="extras"><table>
-    <thead><tr><th>SKU ID</th><th>產品</th><th>Store</th><th>價錢</th><th>熱度</th><th class="hide-m">討論證據</th></tr></thead>
+    <thead><tr><th>SKU ID</th><th>產品</th><th>Store</th><th>價錢</th><th>熱度</th><th class="hide-m">討論證據</th><th>下載</th></tr></thead>
     <tbody id="extras"></tbody>
   </table></div>
 
@@ -140,6 +145,7 @@ function render(weekStart){
         <span class="sku" onclick="copySku(this)" title="按一下複製">${esc(s.sku_id)}</span>
       </div>
       <div class="ev"><span class="lbl">💬 討論證據</span>${esc(s.evidence)}</div>
+      ${s.ppt_url ? `<a class="dl-btn" href="${esc(s.ppt_url)}" download>📥 下載 PPT</a>` : ''}
       ${s.url ? `<a class="url" href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.url)}</a>` : ''}
     </div>`;
   }).join('');
@@ -152,6 +158,7 @@ function render(weekStart){
       <td style="white-space:nowrap">${fmt$(s.price)}</td>
       <td><span class="heat ${HEAT_CLS[s.heat]||'LOW'}">${esc(s.heat)}</span></td>
       <td class="hide-m">${esc(s.evidence)} ${s.url?`<br><a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 影片</a>`:''}</td>
+      <td>${s.ppt_url ? `<a class="dl-mini" href="${esc(s.ppt_url)}" download>📥 PPT</a>` : '—'}</td>
     </tr>`).join('');
 }
 
