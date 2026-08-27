@@ -27,6 +27,10 @@
   h2 .tag{font-size:11px;background:var(--brand-bg);color:var(--brand);padding:2px 8px;border-radius:99px;font-weight:700}
   .top5{display:flex;flex-direction:column;gap:10px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .card-main{display:flex;gap:14px;align-items:flex-start}
+  .thumb{width:96px;height:96px;object-fit:contain;border:1px solid var(--line);border-radius:10px;background:#fff;flex-shrink:0}
+  .card-body{flex:1;min-width:0}
+  .timg{width:46px;height:46px;object-fit:contain;border:1px solid var(--line);border-radius:8px;background:#fff;display:block}
   .card .head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .rank{width:30px;height:30px;border-radius:9px;background:var(--ink);color:#fff;font-weight:800;font-size:14px;
         display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -65,6 +69,7 @@
   @media(max-width:560px){
     .stats{gap:6px}.stat b{font-size:18px}
     .card h3{min-width:150px;font-size:14px}
+    .thumb{width:72px;height:72px}
     .extras table{font-size:11.5px}
     .extras th,.extras td{padding:7px 6px}
     .extras .hide-m{display:none}
@@ -92,7 +97,7 @@
 
   <h2>📋 其他有熱度 SKU（後備）</h2>
   <div class="extras"><table>
-    <thead><tr><th>SKU ID</th><th>產品</th><th>Store</th><th>價錢</th><th>熱度</th><th class="hide-m">討論證據</th><th>下載</th></tr></thead>
+    <thead><tr><th>圖片</th><th>SKU ID</th><th>產品</th><th>Store</th><th>價錢</th><th>熱度</th><th class="hide-m">討論證據</th><th>下載</th></tr></thead>
     <tbody id="extras"></tbody>
   </table></div>
 
@@ -132,8 +137,11 @@ function render(weekStart){
   document.title = '🔥 Newsfeed Hot Items — ' + w.week_label;
 
   document.getElementById('top5').innerHTML = (w.top5||[]).map((s,i)=>{
-    const rk = i===0?'r1':i===1?'r2':i===2?'r3':'';
+    const rk = i===0?'r1':(i===1?'r2':(i===2?'r3':''));
     return `<div class="card">
+      <div class="card-main">
+        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="${esc(s.name)}" loading="lazy" onerror="this.style.display='none'">` : ''}
+        <div class="card-body">
       <div class="head">
         <div class="rank ${rk}">${s.rank||i+1}</div>
         <h3>${esc(s.name)}</h3>
@@ -147,11 +155,14 @@ function render(weekStart){
       <div class="ev"><span class="lbl">💬 討論證據</span>${esc(s.evidence)}</div>
       ${s.ppt_url ? `<a class="dl-btn" href="${esc(s.ppt_url)}" download>📥 下載 PPT</a>` : ''}
       ${s.url ? `<a class="url" href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.url)}</a>` : ''}
+        </div>
+      </div>
     </div>`;
   }).join('');
 
   document.getElementById('extras').innerHTML = (w.extras||[]).map(s=>`
     <tr>
+      <td>${s.img ? `<img class="timg" src="${esc(s.img)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '—'}</td>
       <td><a class="sku" href="${esc(s.url_hktv || '#')}" target="_blank" rel="noopener" title="開啟 HKTVmall 產品頁">${esc(s.sku_id)}</a></td>
       <td>${esc(s.name)}</td>
       <td>${esc(s.store)}</td>
