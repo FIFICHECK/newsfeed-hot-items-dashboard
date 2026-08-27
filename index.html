@@ -42,6 +42,7 @@
   .heat.HIGH{background:var(--high-bg);color:var(--high)}
   .heat.MEDIUM{background:var(--med-bg);color:var(--med)}
   .heat.LOW{background:var(--low-bg);color:var(--low)}
+  .sp{font-size:10.5px;background:linear-gradient(135deg,#f59e0b,#e11d48);color:#fff;padding:1px 8px;border-radius:99px;font-weight:800;vertical-align:2px}
   .meta{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:12.5px;color:var(--sub)}
   .meta b{color:var(--ink);font-weight:600}
   .sku{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#f1f5f9;
@@ -144,7 +145,7 @@ function render(weekStart){
         <div class="card-body">
       <div class="head">
         <div class="rank ${rk}">${s.rank||i+1}</div>
-        <h3>${esc(s.name)}</h3>
+        <h3>${esc(s.name)}${s.special ? ' <span class="sp">⭐特色</span>' : ''}</h3>
         <span class="heat ${HEAT_CLS[s.heat]||'LOW'}">${esc(s.heat)}</span>
       </div>
       <div class="meta">
