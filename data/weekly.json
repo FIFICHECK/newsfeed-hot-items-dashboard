@@ -1,151 +1,124 @@
 {
  "weeks": [
   {
+   "week_start": "2026-08-24",
+   "week_label": "24/8 週",
+   "generated": "2026-08-27",
+   "scanned": 60,
+   "with_heat": 9,
+   "scan_tier": 0,
    "top5": [
     {
+     "rank": 1,
      "sku_id": "H6183001_S_4908",
      "name": "鮑發財 - 小食鮑魚零食禮盒(16粒)",
      "store": "安記海味",
      "store_code": "H6183001",
      "price": 108.73,
-     "heat": "HIGH",
+     "heat": "High",
      "evidence": "同一條安記零食鮑魚 TV 廣告 17小時前；4日前「拼多多零食開箱/試伏」影片；梁家權鮑魚盲測 — 鮑魚零食話題持續",
      "url": "https://www.youtube.com/watch?v=2rI2VfmCVsg",
-     "rank": 1,
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H6183001_S_4908.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6183001_S_4908",
-     "img": "img/H6183001_S_4908.jpg"
+     "special": false
     },
     {
-     "sku_id": "H6183001_S_4928",
-     "name": "零食鮑- 和風照燒(12粒裝)",
-     "store": "安記海味",
-     "store_code": "H6183001",
-     "price": 87.65,
-     "heat": "HIGH",
-     "evidence": "安記 2026 全新電視廣告 17小時前上架；星島申訴王 2日前；樓上店 3日前影片 — 品牌正大力推「零食鮑魚」新 format，時機極啱 Newsfeed",
-     "url": "https://www.youtube.com/watch?v=2rI2VfmCVsg",
      "rank": 2,
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H6183001_S_4928.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6183001_S_4928",
-     "img": "img/H6183001_S_4928.jpg"
-    },
-    {
      "sku_id": "B0961005_S_4894436008671",
      "name": "免疫+ 益生菌 28包【青春雙歧桿菌】【最佳使用日期: 2027/10】",
      "store": "香港網上社區藥房超市",
      "store_code": "B0961005",
      "price": 338.44,
-     "heat": "MEDIUM",
+     "heat": "Medium",
      "evidence": "消委會踢爆 25 款益生菌「呃錢陷阱」4個月前（全城話題）；藥劑師益生菌指南；G-NiiB 官方廣告；PGut 優惠片 9日前 — 益生菌類別討論持續",
      "url": "https://www.youtube.com/watch?v=xXjef-ZYI2w",
-     "rank": 3,
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_B0961005_S_4894436008671.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/B0961005_S_4894436008671",
-     "img": "img/B0961005_S_4894436008671.jpg"
+     "special": false
     },
     {
+     "rank": 3,
      "sku_id": "H6588001_S_Philips_ADD6991WH",
      "name": "ADD6991WH RO純淨冷熱製冰飲水機 香港行貨 | 即熱水機 | 製冰水機 | ADD6991",
      "store": "輝煌數碼",
      "store_code": "H6588001",
      "price": 3750.0,
-     "heat": "MEDIUM",
+     "heat": "Medium",
      "evidence": "RO 水機購買指南（即熱/製冰）1年前；友和 YOHO 開箱；GG學堂 RO 即熱飲水機 6 大迷思 — 家電評測類別有持續討論",
      "url": "https://www.youtube.com/watch?v=zEfiywrtApc",
-     "rank": 4,
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H6588001_S_Philips_ADD6991WH.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6588001_S_Philips_ADD6991WH",
-     "img": "img/H6588001_S_Philips_ADD6991WH.jpg"
+     "special": false
     },
     {
+     "rank": 4,
      "sku_id": "H0883004_S_CUMainlandMacau365D18GB",
      "name": "365日【內地、澳門】(30GB) 5G/4G上網卡數據卡SIM咭 S06(01215)(新舊包裝隨機發貨)",
      "store": "Enjoy Sim Plus",
      "store_code": "H0883004",
      "price": 143.29,
-     "heat": "MEDIUM",
+     "heat": "Medium",
      "evidence": "2026 日本旅遊 SIM/eSIM 選購攻略 1個月前；中國聯通 2026 年卡懶人包 3個月前；5G 年卡評測 6個月前；MySIM 攻略 2個月前 — 年卡/eSIM 係長期熱門討論類別",
      "url": "https://www.youtube.com/watch?v=9O2zEPzxEhE",
-     "rank": 5,
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H0883004_S_CUMainlandMacau365D18GB.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H0883004_S_CUMainlandMacau365D18GB",
-     "img": "img/H0883004_S_CUMainlandMacau365D18GB.jpg"
-    }
-   ],
-   "extras": [
+     "special": false
+    },
     {
+     "rank": 5,
      "sku_id": "S6477001_S_blackmaca-30",
      "name": "特濃2000黑瑪卡液禮盒裝 (30包) [原裝行貨]",
      "store": "正官庄",
      "store_code": "S6477001",
      "price": 520.0,
-     "heat": "MEDIUM",
+     "heat": "Medium",
      "evidence": "正官庄官方廣告（視帝譚俊彥代言）；「黑瑪卡 VS 犀利士」大比拼；自費保健品評測 10個月前；熟男話題片 2個月前 — 男士保健熱度穩定",
      "url": "https://www.youtube.com/watch?v=y4ZPw5wkkH8",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_S6477001_S_blackmaca-30.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/S6477001_S_blackmaca-30",
-     "img": "img/S6477001_S_blackmaca-30.jpg"
-    },
+     "special": false
+    }
+   ],
+   "extras": [
     {
+     "rank": 0,
      "sku_id": "B0501001_S_AHH90013",
      "name": "[平行進口]Synbiotic D-C 益生菌(貓狗用) 50粒 (新舊包裝隨機發貨)",
      "store": "動物醫院保健快線",
      "store_code": "B0501001",
      "price": 213.75,
-     "heat": "LOW",
+     "heat": "Low",
      "evidence": "益生菌迷思影片 11日前（通用話題非此產品）；開箱 260 億機能益生菌 — 類別討論但非直接產品",
      "url": "https://www.youtube.com/watch?v=zEfiywrtApc",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/B0501001_S_AHH90013",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_B0501001_S_AHH90013.pptx",
-     "img": "img/B0501001_S_AHH90013.jpg"
+     "special": false
     },
     {
+     "rank": 0,
      "sku_id": "H0883003_S_BASF4719873980017",
      "name": "一點絕 2％凝膠餌劑 5g ▼A1(80017)(平行進口)",
      "store": "L&T",
      "store_code": "H0883003",
      "price": 88.5,
-     "heat": "LOW",
+     "heat": "Low",
      "evidence": "一點絕滅蟑影片（5個月前餌盒教學；7年前使用說明）— 夏季滅蟑季節性話題",
      "url": "https://www.youtube.com/watch?v=GpVDzGAUCkA",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H0883003_S_BASF4719873980017",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H0883003_S_BASF4719873980017.pptx",
-     "img": "img/H0883003_S_BASF4719873980017.jpg"
+     "special": false
     },
     {
+     "rank": 0,
      "sku_id": "S6501001_S_G4711100912501",
      "name": "TRUU 童 76酵母胺基酸淨膚潔顏露150g TRUU76 （防滑磨砂霧面升級版） [平行進口] 提升肌膚後續保養",
      "store": "GT BEAUTY",
      "store_code": "S6501001",
      "price": 315.0,
-     "heat": "LOW",
+     "heat": "Low",
      "evidence": "TRUU 童 76 酵母潔顏露開箱/推薦（2-3年前多條，包括「人生用過最好用洗面乳」）— 美妝 KOL 討論但內容偏舊",
      "url": "https://www.youtube.com/watch?v=zEfiywrtApc",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_S6501001_S_G4711100912501.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/S6501001_S_G4711100912501",
-     "img": "img/S6501001_S_G4711100912501.jpg"
+     "special": false
     },
     {
+     "rank": 0,
      "sku_id": "H5600001_S_580000",
      "name": "衣物留香珠 885ml (皇室香氛) #實證留香16週  #除蟎除菌 #除臭 #抗菌72小時  #留香16週 #清香珠 #芳香豆 #柔順",
      "store": "Swashes 詩樂氏｜清潔消毒專家",
      "store_code": "H5600001",
      "price": 69.1,
-     "heat": "LOW",
+     "heat": "Low",
      "evidence": "消委會抽查 12 款衣物清香珠全檢出致敏香料（星島頭條）1年前 — 新聞話題但已過氣",
      "url": "https://www.youtube.com/watch?v=Qc1LxV1B5x8",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-08-24_H5600001_S_580000.pptx",
-     "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H5600001_S_580000",
-     "img": "img/H5600001_S_580000.jpg"
+     "special": false
     }
-   ],
-   "week_start": "2026-08-24",
-   "week_label": "24/8 週",
-   "generated": "2026-08-26",
-   "scanned": 60,
-   "with_heat": 10,
-   "scan_tier": 0
+   ]
   }
  ]
 }
