@@ -41,7 +41,7 @@
   .meta{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:12.5px;color:var(--sub)}
   .meta b{color:var(--ink);font-weight:600}
   .sku{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#f1f5f9;
-       padding:2px 8px;border-radius:6px;cursor:pointer;border:1px solid var(--line)}
+       padding:2px 8px;border-radius:6px;cursor:pointer;border:1px solid var(--line);text-decoration:none;color:var(--ink)}
   .sku:hover{background:var(--brand-bg)}
   .ev{margin-top:9px;font-size:13px;background:#fafafa;border-left:3px solid var(--brand);
       padding:8px 10px;border-radius:0 8px 8px 0}
@@ -142,7 +142,7 @@ function render(weekStart){
       <div class="meta">
         <span>🏪 <b>${esc(s.store)}</b> (${esc(s.store_code)})</span>
         <span>💰 <b>${fmt$(s.price)}</b> (估)</span>
-        <span class="sku" onclick="copySku(this)" title="按一下複製">${esc(s.sku_id)}</span>
+        <a class="sku" href="${esc(s.url_hktv || '#')}" target="_blank" rel="noopener" title="開啟 HKTVmall 產品頁">${esc(s.sku_id)}</a>
       </div>
       <div class="ev"><span class="lbl">💬 討論證據</span>${esc(s.evidence)}</div>
       ${s.ppt_url ? `<a class="dl-btn" href="${esc(s.ppt_url)}" download>📥 下載 PPT</a>` : ''}
@@ -152,7 +152,7 @@ function render(weekStart){
 
   document.getElementById('extras').innerHTML = (w.extras||[]).map(s=>`
     <tr>
-      <td><span class="sku" onclick="copySku(this)">${esc(s.sku_id)}</span></td>
+      <td><a class="sku" href="${esc(s.url_hktv || '#')}" target="_blank" rel="noopener" title="開啟 HKTVmall 產品頁">${esc(s.sku_id)}</a></td>
       <td>${esc(s.name)}</td>
       <td>${esc(s.store)}</td>
       <td style="white-space:nowrap">${fmt$(s.price)}</td>
