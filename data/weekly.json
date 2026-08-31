@@ -1,6 +1,138 @@
 {
  "weeks": [
   {
+   "week_start": "2026-08-31",
+   "week_label": "31/8 週",
+   "generated": "2026-08-31",
+   "scanned": 1000,
+   "with_heat": 10,
+   "scan_tier": 0,
+   "top5": [
+    {
+     "rank": 1,
+     "sku_id": "H6183001_S_4979",
+     "name": "零食鮑-港式叉燒味 (12包裝)",
+     "store": "H6183001",
+     "store_code": "H6183001",
+     "price": 87.97,
+     "heat": "High",
+     "evidence": "安記 2026 全新電視廣告：安記零食鮑魚 5 日前上架 + 香港罐頭鮑魚大評比 2 年前 207K — 零食鮑話題",
+     "url": "https://www.youtube.com/watch?v=2rI2VfmCVsg",
+     "special": false
+    },
+    {
+     "rank": 2,
+     "sku_id": "H0883004_S_chinauciom5daysJapan",
+     "name": "5日【日本】(5+3GB) 5G/4G無限上網卡數據卡SIM咭 S15(01352)(新舊包裝隨機發貨)",
+     "store": "H0883004",
+     "store_code": "H0883004",
+     "price": 46.63,
+     "heat": "High",
+     "evidence": "日本電話卡橫評 2024 實地測速 86K + 2026 日本旅遊 SIM/eSIM 選購攻略 1 個月前 50K — 旅行旺季 SIM 攻略熱",
+     "url": "https://www.youtube.com/watch?v=KzkHhLU3YYA",
+     "special": false
+    },
+    {
+     "rank": 3,
+     "sku_id": "H0623003_S_168-1790X2",
+     "name": "天然海藻染髮護髮膏 150g 明亮啡色 (白髮專用) *【2件】- 45775(平行進口)",
+     "store": "H0623003",
+     "store_code": "H0623003",
+     "price": 154.16,
+     "heat": "High",
+     "evidence": "日本50惠天然海藻護染 廣告 1 年前 3.2M + 新升級版 2.9M — 白髮染護高曝光 TVC",
+     "url": "https://www.youtube.com/watch?v=4KT5GfdZqrk",
+     "special": false
+    },
+    {
+     "rank": 4,
+     "sku_id": "B1789001_S_NestStandard_30",
+     "name": "【無糖標準版】超高密度極濃鮮燉燕窩 - 禮盒裝30瓶 (馬來西亞AA級上等官燕盞) [Best Before: 2026/09/09]",
+     "store": "B1789001",
+     "store_code": "B1789001",
+     "price": 1888.0,
+     "heat": "Medium",
+     "evidence": "大棧 2026 即食燕窩 新年送禮 廣告 6 個月前 196K + 燕窩點樣揀 76K — 即食燕窩送禮話題",
+     "url": "https://www.youtube.com/watch?v=zy-9b-AkSPc",
+     "special": true
+    },
+    {
+     "rank": 5,
+     "sku_id": "B2008001_S_81F0052",
+     "name": "(5包裝/北海道小麥/蝦濃湯味/粉紅色)日清出前一丁即食麵",
+     "store": "B2008001",
+     "store_code": "B2008001",
+     "price": 22.9,
+     "heat": "Medium",
+     "evidence": "【北海道一丁】實試 7 款 5 個月前 62K + 日本爆紅泡麵實測 118K — 即食麵話題",
+     "url": "https://www.youtube.com/watch?v=Mxjd7rB0Kjs",
+     "special": true
+    }
+   ],
+   "extras": [
+    {
+     "rank": 0,
+     "sku_id": "B0961005_S_4897020276715",
+     "name": "全植物醫學級益生菌元配方 400 億 30 包【最佳使用日期: 03/2029】",
+     "store": "B0961005",
+     "store_code": "B0961005",
+     "price": 197.24,
+     "heat": "Medium",
+     "evidence": "Whole Love Plus 纖體肽醫學級益生菌元配方 650億 2 星期前 95K + 腸腩清 300億 2 星期前 77K — 品牌新片連發",
+     "url": "https://www.youtube.com/watch?v=mygsIUglZk8",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H6588001_S_Panasonic_F30GLF",
+     "name": "F-30GLH 12吋 DC摩打風扇 香港行貨 座地扇 | 座枱扇",
+     "store": "H6588001",
+     "store_code": "H6588001",
+     "price": 648.0,
+     "heat": "Medium",
+     "evidence": "全新 Panasonic DC 摩打風扇 廣告 1 個月前 343K + 2025 循環扇推薦/消委會 66K — 夏日涼電話題",
+     "url": "https://www.youtube.com/watch?v=BbIejHAK5tI",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H0883003_S_OK99903",
+     "name": "吸濕大笨象除濕抗菌消臭吸濕劑(10片入)(抽屜儲物箱用)▼C2(99903)(平行進口)",
+     "store": "H0883003",
+     "store_code": "H0883003",
+     "price": 64.33,
+     "heat": "Medium",
+     "evidence": "香港潮濕天氣救星 影片 3 個月前 1.3M + 獅王 吸濕大笨象 真實用家 5 個月前 — 潮濕季話題",
+     "url": "https://www.youtube.com/watch?v=Z9Tlow0tvzE",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "B1200001_S_HSH_SIM_JP_SOFT_5DAYS_5G",
+     "name": "日本 Softbank 5日5G無限數據 (不限速) $168 ｜日本SIM卡｜日本電話卡｜日本數據卡｜日本上網｜",
+     "store": "B1200001",
+     "store_code": "B1200001",
+     "price": 91.63,
+     "heat": "Medium",
+     "evidence": "日本旅遊SIM實地測速 東京/澀谷 91K + 日本上網卡點揀 三大電信解析 20K — 日本 SIM 熱度持續",
+     "url": "https://www.youtube.com/watch?v=LcxasyvSKjI",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H5859001_S_ST2458",
+     "name": "資生堂 The Collagen Drink 膠原蛋白飲品 10枝/ 10日份 x3 [新版本](EXP:07 2027)",
+     "store": "H5859001",
+     "store_code": "H5859001",
+     "price": 480.0,
+     "heat": "Medium",
+     "evidence": "日本No.1 The Collagen 官方登陸香港 2 個月前 346K + 屈臣氏限時優惠 — 官方登港話題",
+     "url": "https://www.youtube.com/watch?v=FXZ8Hj-kLk0",
+     "special": false
+    }
+   ]
+  },
+  {
    "week_start": "2026-08-24",
    "week_label": "24/8 週",
    "generated": "2026-08-27",
