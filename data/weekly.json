@@ -1,6 +1,126 @@
 {
  "weeks": [
   {
+   "week_start": "2026-09-07",
+   "week_label": "07/09 週",
+   "generated": "2026-09-07",
+   "scanned": 1000,
+   "with_heat": 9,
+   "scan_tier": 0,
+   "top5": [
+    {
+     "rank": 1,
+     "sku_id": "B1252001_S_MF10",
+     "name": "MF10 淨化無葉風扇",
+     "store": "B1252001",
+     "store_code": "B1252001",
+     "price": 2699.0,
+     "heat": "High",
+     "evidence": "追覓Dreame官方廣告「未來循環扇｜AI感溫無葉淨化循環扇」978,910次（3個月前）；「追覓MF10循環扇 實測降溫PK 傳統風扇」67,371（1個月前）；科技說「無葉風扇開箱評測EP95」7,215（1個月前）——官方TVC＋型號級實測新片連發",
+     "url": "https://www.youtube.com/watch?v=DD-L7vecoiY",
+     "special": false
+    },
+    {
+     "rank": 2,
+     "sku_id": "H0883003_S_ITM64679",
+     "name": "Instax mini 13 即影即有相機/拍立得(夢幻紫)▼F1(64679)(平行進口)",
+     "store": "H0883003",
+     "store_code": "H0883003",
+     "price": 899.0,
+     "heat": "High",
+     "evidence": "Fujifilm官方「Instax Mini 13 Tutorial Video」3,199,736次（5個月前）＋Review & Setup Guide 47,779；友和YOHO「instax mini 13值得買嗎？」1,411（3個月前）＋「2026新款mini 13全色開箱」（1個月前）——官方案例片＋本地零售推薦",
+     "url": "https://www.youtube.com/watch?v=41VMJV739Uk",
+     "special": false
+    },
+    {
+     "rank": 3,
+     "sku_id": "P0122001_S_183083-WGY-7",
+     "name": "SLIP INS 速穿科技: TRES-AIR UNO 男裝休閒鞋",
+     "store": "P0122001",
+     "store_code": "P0122001",
+     "price": 359.2,
+     "heat": "High",
+     "evidence": "Skechers官方「Tres Air UNO」廣告566,446次＋「Men's Skechers UNO」廣告558,361；新「Skechers UNO Glide-Step Slip-ins commercial」130,728（2個月前）；港台「3款休閒旅遊鞋實測 Skechers/HOKA/On」484,167（4個月前）",
+     "url": "https://www.youtube.com/watch?v=QBAdtF4L9_w",
+     "special": false
+    },
+    {
+     "rank": 4,
+     "sku_id": "H6588001_S_EVPAD_11p",
+     "name": "EVPAD 11P 易播盒子 4+64GB 香港行貨 | 網絡機頂盒 | Tv box",
+     "store": "H6588001",
+     "store_code": "H6588001",
+     "price": 1376.0,
+     "heat": "Medium",
+     "evidence": "EVPAD 11P 產品級討論多條：廣東話「試玩—多嘢睇、轉台快？EVPad 11P 電視盒」229,417次（1年前）＋「開箱體驗與硬件拆解」35,775；同廠2026 EVPAD 12P開箱評測50,494（3個月前）——本地電視盒話題持續",
+     "url": "https://www.youtube.com/watch?v=jldQUn0hmnM",
+     "special": false
+    },
+    {
+     "rank": 5,
+     "sku_id": "B1192001_S_SMS-M503x6",
+     "name": "[原箱]法國聖瑪仕Master 503平等紅酒  【古天樂代言】750ml",
+     "store": "B1192001",
+     "store_code": "B1192001",
+     "price": 1446.0,
+     "heat": "Medium",
+     "evidence": "「古天樂力薦聖瑪仕紅白酒」宣傳片120,026次（7個月前）——古天樂代言酒款（產品名亦標明「古天樂代言」）",
+     "url": "https://www.youtube.com/watch?v=x2y9VO_Q1oc",
+     "special": false
+    }
+   ],
+   "extras": [
+    {
+     "rank": 0,
+     "sku_id": "H5859001_S_ST5667",
+     "name": "鎏金煥膚全效修復眼霜 5ml",
+     "store": "H5859001",
+     "store_code": "H5859001",
+     "price": 435.0,
+     "heat": "Medium",
+     "evidence": "La Mer官方「The NEW Rejuvenating Eye Cream 全新精華修復眼霜」廣告4,171,482次（6個月前）＋官方How-To教學——新品眼霜全球主打",
+     "url": "https://www.youtube.com/watch?v=bLryRYL8NzY",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "P0034002_S_TB0A6D9HEW2109000W",
+     "name": "男款Motion Access防水健步鞋",
+     "store": "P0034002",
+     "store_code": "P0034002",
+     "price": 549.0,
+     "heat": "Medium",
+     "evidence": "Timberland官方「2025春夏 Motion Access 防水健步鞋全新登場」554,762次（1年前）——型號系列官方發佈片",
+     "url": "https://www.youtube.com/watch?v=0upxmyTT_Bk",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H6183001_S_4764",
+     "name": "安記溏心鮑魚系列嚐鮮優惠裝(3-4隻裝)【金牌/金蠔醬油/花膠 3款各1罐】",
+     "store": "H6183001",
+     "store_code": "H6183001",
+     "price": 99.37,
+     "heat": "Low",
+     "evidence": "安記2026全新電視廣告「安記零食鮑魚」241,745次（1個月內）——品牌新TVC熱播，主推零食鮑魚、與溏心鮑魚嚐鮮裝同品牌關聯",
+     "url": "https://www.youtube.com/watch?v=dI6SzDrvXKo",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H5528001_S_DAS888045",
+     "name": "獺祭 45 純米大吟醸 四割五分 (720ml) 日本清酒",
+     "store": "H5528001",
+     "store_code": "H5528001",
+     "price": 254.68,
+     "heat": "Low",
+     "evidence": "「清酒酒造紀錄片——獺祭如何以科學釀出全球銷量神話 feat.獺祭」88,324次（10個月前）——品牌紀錄片式曝光",
+     "url": "https://www.youtube.com/watch?v=_bo7ir4u7sg",
+     "special": false
+    }
+   ]
+  },
+  {
    "week_start": "2026-08-31",
    "week_label": "31/8 週",
    "generated": "2026-08-31",
