@@ -20,7 +20,8 @@
      "url": "https://www.youtube.com/watch?v=DD-L7vecoiY",
      "special": false,
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/B1252001_S_MF10",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_B1252001_S_MF10.pptx"
+     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_B1252001_S_MF10.pptx",
+     "img": "img/B1252001_S_MF10.jpg"
     },
     {
      "rank": 2,
@@ -34,7 +35,8 @@
      "url": "https://www.youtube.com/watch?v=41VMJV739Uk",
      "special": false,
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H0883003_S_ITM64679",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H0883003_S_ITM64679.pptx"
+     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H0883003_S_ITM64679.pptx",
+     "img": "img/H0883003_S_ITM64679.jpg"
     },
     {
      "rank": 3,
@@ -76,7 +78,8 @@
      "url": "https://www.youtube.com/watch?v=x2y9VO_Q1oc",
      "special": false,
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/B1192001_S_SMS-M503x6",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_B1192001_S_SMS-M503x6.pptx"
+     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_B1192001_S_SMS-M503x6.pptx",
+     "img": "img/B1192001_S_SMS-M503x6.jpg"
     }
    ],
    "extras": [
@@ -92,7 +95,8 @@
      "url": "https://www.youtube.com/watch?v=bLryRYL8NzY",
      "special": false,
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H5859001_S_ST5667",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H5859001_S_ST5667.pptx"
+     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H5859001_S_ST5667.pptx",
+     "img": "img/H5859001_S_ST5667.jpg"
     },
     {
      "rank": 0,
@@ -120,7 +124,8 @@
      "url": "https://www.youtube.com/watch?v=dI6SzDrvXKo",
      "special": false,
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H6183001_S_4764",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H6183001_S_4764.pptx"
+     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H6183001_S_4764.pptx",
+     "img": "img/H6183001_S_4764.jpg"
     },
     {
      "rank": 0,
@@ -134,7 +139,8 @@
      "url": "https://www.youtube.com/watch?v=_bo7ir4u7sg",
      "special": false,
      "url_hktv": "https://www.hktvmall.com/hktv/zh/p/H5528001_S_DAS888045",
-     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H5528001_S_DAS888045.pptx"
+     "ppt_url": "https://fificheck.github.io/newsfeed-hot-items-dashboard/ppt/2026-09-07_H5528001_S_DAS888045.pptx",
+     "img": "img/H5528001_S_DAS888045.jpg"
     }
    ]
   },
