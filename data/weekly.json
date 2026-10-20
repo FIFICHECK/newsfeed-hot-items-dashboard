@@ -1,6 +1,138 @@
 {
  "weeks": [
   {
+   "week_start": "2026-10-19",
+   "week_label": "19/10 週",
+   "generated": "2026-10-20",
+   "scanned": 1000,
+   "with_heat": 10,
+   "scan_tier": 0,
+   "top5": [
+    {
+     "rank": 1,
+     "sku_id": "B0961005_S_4894436010292",
+     "name": "微生態纖肝代謝配方 SLD07【最佳使用日期: 12/2027】",
+     "store": "B0961005",
+     "store_code": "B0961005",
+     "price": 541.33,
+     "heat": "High",
+     "evidence": "「【#BMI正常又重視健康 卻有嚴重肝脂問題】#真實用家Angela分享｜#G-NiiB 纖肝代謝配方® SLD07」1,745,188（11 個月前）；「【# 肝脂指數回復正常 整個人更輕盈更有活力】#真實用家Raymond分享｜#G-NiiB 纖肝代謝配方® SLD07」74,806（3 個月前）；「東張西望｜平衡腸道微生態改善肝臟問題」774（11 個月前）——官方真實用家片＋TVB《東張西望》專題雙線，肝脂／代謝健康話題持續有片，型號級指名度最高",
+     "url": "https://www.youtube.com/watch?v=us4MCK6eybc",
+     "special": false
+    },
+    {
+     "rank": 2,
+     "sku_id": "S6258001_S_LAR96548",
+     "name": "LIPIKAR AP+Max 全效抗敏修護霜 止癢配方 400ml ✥[30239] (平行進口貨)",
+     "store": "S6258001",
+     "store_code": "S6258001",
+     "price": 196.51,
+     "heat": "High",
+     "evidence": "「The new Lipikar Baume AP+Max 72h relief*」417,981（7 個月前）；「New Lipikar Baume AP+Max」230,769（8 個月前）；「How to hydrate my body?",
+     "url": "https://www.youtube.com/watch?v=XmzTwco0olY",
+     "special": false
+    },
+    {
+     "rank": 3,
+     "sku_id": "P0122001_S_150559-GRY-9",
+     "name": "SLIP INS 速穿科技: D'LITES 女裝休閒鞋",
+     "store": "P0122001",
+     "store_code": "P0122001",
+     "price": 449.0,
+     "heat": "High",
+     "evidence": "「D‘LITES 20 週年限定款 & D‘LITES 6.0 強勢登場」430,651（2 個月前）；「Skechers D'Lites Dazzling Shine 2026",
+     "url": "https://www.youtube.com/watch?v=CQBQwf44FfU",
+     "special": false
+    },
+    {
+     "rank": 4,
+     "sku_id": "H6092001_S_4909411048754x6",
+     "name": "(原箱) 無糖 午後紅茶 2L x6支  [平行進口] (新舊包裝 隨機發貨) 此日期前最佳: 2027-02-28",
+     "store": "H6092001",
+     "store_code": "H6092001",
+     "price": 108.0,
+     "heat": "High",
+     "evidence": "「KIRIN 2026｜KIRIN午後紅茶 【歡笑旅程篇】 無糖紅茶 15s」3,674,483（3 個月前）；「午後紅茶」113,563——KIRIN 2026 官方無糖紅茶廣告 367 萬 views（3個月前）＋「午後紅茶」相關片 11 萬，品牌年度大推、無糖茶需求上升",
+     "url": "https://www.youtube.com/watch?v=D76soRP2sSY",
+     "special": false
+    },
+    {
+     "rank": 5,
+     "sku_id": "B1608001_S_FMS84490",
+     "name": "【原箱】Peelerz獎盃及足球造型剝皮軟糖65克 (96包)",
+     "store": "B1608001",
+     "store_code": "B1608001",
+     "price": 722.4,
+     "heat": "High",
+     "evidence": "「Trying The GIANT Peelable Candy... 🤤」6,493,970（8 個月前）；「This Giant Peelable Gummy Is HUGE 😳🍬」4,419,094（4 個月前）；「what World Cup Peelerz look like」1,577,762（4 個月前）——Peelerz 剝皮軟糖全球爆紅短片（649萬／442萬／158萬 views，4-8個月內），開箱試食類內容自然流量極高",
+     "url": "https://www.youtube.com/watch?v=TQuXKn2bK_E",
+     "special": false
+    }
+   ],
+   "extras": [
+    {
+     "rank": 0,
+     "sku_id": "H0883003_S_AP82359",
+     "name": "【offline】AirTag 達摩(1個)【2026新年限量版】▼L(82359)(平行進口)",
+     "store": "H0883003",
+     "store_code": "H0883003",
+     "price": 158.0,
+     "heat": "Medium",
+     "evidence": "「AirTag 2 vs Everything Else – The State of Trackers in 2026!」275,029（7 個月前）；「Unboxing AirTag 2nd Gen (2026) ft. UAG Monarch Case」8,815（5 個月前）——AirTag 2 世代 2026 比較片 27.5 萬 views（7個月前）＋二代開箱 8,815（5個月前），防丟配件換代話題",
+     "url": "https://www.youtube.com/watch?v=QHhHVZvGpAY",
+     "special": true
+    },
+    {
+     "rank": 0,
+     "sku_id": "H0883004_S_CUjapan8days",
+     "name": "8日【日本】(8+3GB) 5G/4G無限上網卡數據卡SIM咭 S15(01369)(新舊包裝隨機發貨)",
+     "store": "H0883004",
+     "store_code": "H0883004",
+     "price": 58.48,
+     "heat": "Medium",
+     "evidence": "「無限上網 Plan 係智商稅？2026 日本旅遊 SIM 卡／eSIM 選購攻略：踢爆買卡中伏位、eSIM 支援教學 #選購…」58,671（3 個月前）；「日本sim卡推薦【內附優惠碼】＋3款日本旅遊APP｜日本Sim卡｜無限上網｜日本上網首選｜日本旅遊必備｜internet S…」61,375（1 年前）；「日本旅遊SIM實地測速！東京/澀谷/台場實測！一張平均突破100Mbps、想要日本電話小心中伏？｜Docomo、中聯通、JO…」93,148（2 年前）——2026 日本 SIM／eSIM 選購攻略 5.9 萬（3個月前）＋日本 SIM 推薦 6.1 萬（1年前）＋實測 9.3 萬（2年前），外遊上網季節性搜尋強",
+     "url": "https://www.youtube.com/watch?v=9O2zEPzxEhE",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "B0772001_S_LL6927840001681",
+     "name": "【挑戰全網最低價】歐姆龍  HEM-7121電子血壓計  上臂式 老人長者血壓監測保健 送父母禮物 父親節 母親節 血壓計 手臂式 omron 血壓機 手臂式血壓計 平行進口貨品 聖誕禮物",
+     "store": "B0772001",
+     "store_code": "B0772001",
+     "price": 233.62,
+     "heat": "Medium",
+     "evidence": "「[抵用血壓計介紹]日本歐姆龍OMRON HEM 7121 手臂式血壓計 (平衡進口版本)」13,940（5 年前）；「血壓計怎麼選？｜歐姆龍藍牙血壓計開箱 (HEM-7156T)」16,030（9 個月前）——歐姆龍 HEM-7121 型號開箱（1.4萬，5年前）＋血壓計選購片 1.6萬（9個月前），長者送禮實用需求穩定",
+     "url": "https://www.youtube.com/watch?v=U6smn3v7p40",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H6588001_S_Omron_HBF-702T",
+     "name": "HBF-702T 藍牙智能體重體脂肪測量器 香港行貨 | 歐姆龍 | 體脂計 | 體脂磅 | 智能體脂測量器",
+     "store": "H6588001",
+     "store_code": "H6588001",
+     "price": 1970.0,
+     "heat": "Medium",
+     "evidence": "「Get more insights with OMRON Body Composition Monitor HBF-702T」931,915（2 年前）；「全面掌握身體數據！歐姆龍 HBF 702T 體脂計推薦｜居家健康管理好幫手」152,228（1 年前）；「OMRON 歐姆龍體脂計選購指南👉 六款CP值超高又必買的機種開箱｜【賴聊聊EP 56】」50,876（3 年前）——歐姆龍官方 HBF-702T 產品片 93 萬 views（2年前）＋中文體脂計推薦 15 萬（1年前），型號指名但非新片",
+     "url": "https://www.youtube.com/watch?v=z4GBj0SjaeA",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H5039001_S_BR9480CC",
+     "name": "Series 9 PRO 9480cc乾濕兩用電鬚刨 (附臉部設備/清潔機)(平行進口)",
+     "store": "H5039001",
+     "store_code": "H5039001",
+     "price": 1899.0,
+     "heat": "Medium",
+     "evidence": "「巔峰版 Series 9 Pro+",
+     "url": "https://www.youtube.com/watch?v=xd20s2ra92I",
+     "special": false
+    }
+   ]
+  },
+  {
    "week_start": "2026-09-07",
    "week_label": "07/09 週",
    "generated": "2026-09-07",
