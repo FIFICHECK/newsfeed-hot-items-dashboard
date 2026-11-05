@@ -1,6 +1,138 @@
 {
  "weeks": [
   {
+   "week_start": "2026-11-02",
+   "week_label": "02/11 週",
+   "generated": "2026-11-05",
+   "scanned": 1000,
+   "with_heat": 10,
+   "scan_tier": 0,
+   "top5": [
+    {
+     "rank": 1,
+     "sku_id": "H6183001_S_3362",
+     "name": "安記尊貴滋補禮盒",
+     "store": "H6183001",
+     "store_code": "H6183001",
+     "price": 1300.0,
+     "heat": "High",
+     "evidence": "安記 2026 全新電視廣告 33.5 萬 views（2 個月前）＋ 急凍鮑魚盆菜開箱；節慶送禮旺季",
+     "url": "https://www.youtube.com/watch?v=2rI2VfmCVsg",
+     "special": true
+    },
+    {
+     "rank": 2,
+     "sku_id": "H0883004_S_CUMainlandMacau365D18GB",
+     "name": "365日【內地、澳門】(30GB) 5G/4G上網卡數據卡SIM咭 S06(01215)(新舊包裝隨機發貨)",
+     "store": "H0883004",
+     "store_code": "H0883004",
+     "price": 145.44,
+     "heat": "High",
+     "evidence": "日本城 $25 內地澳門數據卡實測 28.2 萬 views（9 日前）— 北上消費熱潮帶動，最新鮮訊號",
+     "url": "https://www.youtube.com/watch?v=rImBzYYM7Ug",
+     "special": false
+    },
+    {
+     "rank": 3,
+     "sku_id": "H5528001_S_ESO430783B",
+     "name": "滴露衣物消毒液 英國版 (1L❎3) 木棉花香 平行進口 除病毒殺菌劑 Dettol Laundry 1L Dettol 1L 新舊包裝隨機發貨 #e閃購homesales",
+     "store": "H5528001",
+     "store_code": "H5528001",
+     "price": 189.37,
+     "heat": "High",
+     "evidence": "滴露官方「全新天然植萃消毒液」廣告 95.2 萬 views（5 個月前），品牌年度主推；衣物消毒為季節性（冬季流感）高需求品類",
+     "url": "https://www.youtube.com/watch?v=KJ_B_6qtl7M",
+     "special": false
+    },
+    {
+     "rank": 4,
+     "sku_id": "H6588001_S_OralB_iO5-2026_4Heads-Black",
+     "name": "iO5 充電電動牙刷 4刷頭裝 香港行貨 [2色] | Series 5 | iO 5",
+     "store": "H6588001",
+     "store_code": "H6588001",
+     "price": 1199.0,
+     "heat": "High",
+     "evidence": "Oral-B iO5 官方「刷出健康·刷新生活」廣告 215.7 萬 views（4 個月前）＋ iO 系列專業評測持續，電動牙刷換刷頭需求穩定",
+     "url": "https://www.youtube.com/watch?v=wM2JG7J-Two",
+     "special": false
+    },
+    {
+     "rank": 5,
+     "sku_id": "H6092001_S_4902135672922",
+     "name": "熊寶貝 香水衣物柔順劑  1400ml  超特大補充裝(水晶麝香) [平行進口]",
+     "store": "H6092001",
+     "store_code": "H6092001",
+     "price": 79.0,
+     "heat": "High",
+     "evidence": "SNUGGLE 熊寶貝「抗臭除菌芳香豆 7 日異味防護罩」51.1 萬 views（4 個月前），衣物柔順劑冬季旺季",
+     "url": "https://www.youtube.com/watch?v=9TnksHlpitU",
+     "special": false
+    }
+   ],
+   "extras": [
+    {
+     "rank": 0,
+     "sku_id": "P0122001_S_177357-GRY-7",
+     "name": "SKECHERS SHADOW 女裝休閒鞋",
+     "store": "P0122001",
+     "store_code": "P0122001",
+     "price": 449.0,
+     "heat": "High",
+     "evidence": "「出國旅遊要選哪一款旅遊神鞋」3 款實測（Skechers/HOKA/On）64.7 萬 views（6 個月前）＋ SKECHERS SHADOW 5 日前 50% OFF 促銷片同步",
+     "url": "https://www.youtube.com/watch?v=B12odtTm2rQ",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "H8931001_S_PL02",
+     "name": "Thomas火車頭洗澡玩具",
+     "store": "H8931001",
+     "store_code": "H8931001",
+     "price": 399.0,
+     "heat": "High",
+     "evidence": "Thomas & Friends 新系列 die-cast 開箱 19.1 萬 views（1 個月前），玩具 IP 長青、浴室玩具屬高回購",
+     "url": "https://www.youtube.com/watch?v=2e21AbHSus0",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "B0501001_S_AHH10012",
+     "name": "Antinol Rapid 關節保健速效版 (狗用) 90粒 [平行進口]",
+     "store": "B0501001",
+     "store_code": "B0501001",
+     "price": 595.43,
+     "heat": "Medium",
+     "evidence": "Antinol Plus 官方關節保健片（10 個月前，172 views）— 品類高客單、回購強，但影片聲量偏細",
+     "url": "https://www.youtube.com/watch?v=MI5BHEb7dpA",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "S6258001_S_CAB4678C",
+     "name": "金盞花面霜護膚霜 天然萬用乳霜 113g (平行進口貨)",
+     "store": "S6258001",
+     "store_code": "S6258001",
+     "price": 252.19,
+     "heat": "Medium",
+     "evidence": "「大癲實測」面霜評測 334 萬 views（2 星期前）— 品類聲量極高但屬他牌，金盞花面霜屬同類替代",
+     "url": "https://www.youtube.com/watch?v=PXprTFFqv7k",
+     "special": false
+    },
+    {
+     "rank": 0,
+     "sku_id": "B1200001_S_HSH_SIM_JP_SOFT_7DAYS_5G",
+     "name": "日本 Softbank 7日5G無限數據 (不限速) $188 ｜日本SIM卡｜日本電話卡｜日本數據卡｜日本上網｜",
+     "store": "B1200001",
+     "store_code": "B1200001",
+     "price": 103.06,
+     "heat": "Medium",
+     "evidence": "2026 日本旅遊 SIM/eSIM 選購攻略 6.1 萬 views（3 個月前），日本外遊復甦",
+     "url": "https://www.youtube.com/watch?v=LcxasyvSKjI",
+     "special": false
+    }
+   ]
+  },
+  {
    "week_start": "2026-10-19",
    "week_label": "19/10 週",
    "generated": "2026-10-20",
